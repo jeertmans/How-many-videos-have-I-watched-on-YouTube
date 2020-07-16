@@ -17,8 +17,6 @@ In order to parse datetimes, a dictionary is needed. It should contains months i
 
 In a terminal, run `python parse.py -i /path/to/watch_history.html -o output.txt -l locale.json`
 
-Example : `python parse.py -i "C:\\Users\\hexyl\\OneDrive\\Bureau\\Takeout\\YouTube et YouTube Music\\historique\\watch-history.html" -o history.txt -l fr.json`
-
 ## 4. Plot the data
 
 In a terminal, run `python plot.py -i history.txt`
